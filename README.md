@@ -1,34 +1,17 @@
-# MLflow-project-template
-MLflow project template
+# Bill Extracter 
+Extracts bill details from an image
 
-## STEPS -
 
-### STEP 01- Create a repository by using template repository
-
-### STEP 02- Clone the new repository
-
-### STEP 03- Create a conda environment after opening the repository in VSCODE
-
+## Step 1 : run the below command to configure initial env setup
 ```bash
-conda create --prefix ./env python=3.7 -y
+bash init_setup.sh
 ```
 
+## Step 2 : run the below command to run the application
 ```bash
-conda activate ./env
-```
-OR
-```bash
-source activate ./env
+bash main.py
 ```
 
-### STEP 04- install the requirements
-```bash
-pip install -r requirements.txt
-```
+## Check the logs from the details
 
-### STEP 05 - Create conda.yaml file -
-```bash
-conda env export > conda.yaml
-```
-
-### STEP 06- commit and push the changes to the remote repository
+## Check the output files
