@@ -7,3 +7,13 @@
 [2022-06-17 17:57:17,892: INFO: bill_extracter_helper]: Created json file: sample.json
 [2022-06-17 17:57:17,905: INFO: main]: >>>>> stage main stage completed!<<<<<
 
+[2022-06-17 18:06:10,622: INFO: main]: 
+********************
+[2022-06-17 18:06:10,622: INFO: main]: >>>>> stage main stage started <<<<<
+[2022-06-17 18:06:11,354: INFO: bill_extracter_helper]: Text extracted from image: test_images/photo6136222383296589771.jpg
+[2022-06-17 18:06:11,354: INFO: bill_extracter_helper]: Extracted details from extracted data
+[2022-06-17 18:06:11,354: INFO: bill_extracter_helper]: Created item details dataframe
+[2022-06-17 18:06:11,354: INFO: bill_extracter_helper]: Created json file: output_files\sample.json
+[2022-06-17 18:06:11,381: INFO: main]: Check the output files in the output_files folder
+[2022-06-17 18:06:11,381: INFO: main]: >>>>> stage main stage completed!<<<<<
+

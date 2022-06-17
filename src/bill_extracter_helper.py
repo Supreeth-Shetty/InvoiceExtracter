@@ -106,7 +106,7 @@ class BillExtracter:
             final_data["amount"].append(amount)
 
         df = pd.DataFrame(final_data)
-        df.to_csv("item_details.csv", index=False)
+        df.to_csv("output_files\item_details.csv", index=False)
         logging.info(f"Created item details dataframe")
         return final_data
             
